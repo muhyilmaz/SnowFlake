@@ -12,10 +12,10 @@
 	<div class="container-fluid">
 		<div id="MainForm" class= "form-group h-100 container-fluid row">
 		    <div class="btn-group-vertical btn-group-lg btn-block col-md-4 bosluklariKaldir">
-				<button id="btnNewGame" style="height:100px" type="button" class="btn btn-primary " >NEW GAME</button></br></br></br>
-				<button id="btnLoadGame" style="height:100px" type="button" class="btn btn-primary " >LOAD GAME</button></br></br></br>
-				<button id="btnCredits" style="height:100px" type="button" class="btn btn-primary " >CREDITS</button></br></br></br>
-				<button id="btnHelp" style="height:100px" type="button" class="btn btn-primary " >HELP</button></br></br></br>
+				<button id="btnNewGame"  style="height:50px" type="button" class="btn btn-primary " >NEW GAME</button></br></br></br>
+				<button id="btnLoadGame" style="height:50px" type="button" class="btn btn-primary " >LOAD GAME</button></br></br></br>
+				<button id="btnCredits"  style="height:50px" type="button" class="btn btn-primary " >CREDITS</button></br></br></br>
+				<button id="btnHelp"     style="height:50px" type="button" class="btn btn-primary " >HELP</button></br></br></br>
 			</div>
 			
 			<div  class="image_KizKulesi bosluklariKaldir col-md-8 container-fluid row">
@@ -32,6 +32,15 @@
 	<script>
 		$('#btnNewGame').click(function () {
 			window.location.href = 'NewGameForm.html';
+		})
+		$('#btnLoadGame').click(function () {
+			window.location.href = 'LoadGame.html';
+		})
+		$('#btnCredits').click(function () {
+			window.location.href = 'Credits.html';
+		})
+		$('#btnHelp').click(function () {
+			window.location.href = 'Help.html';
 		})
 	</script>
 </html>
