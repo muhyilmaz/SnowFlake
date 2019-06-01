@@ -1,10 +1,10 @@
 <html>
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" crossorigin="anonymous">
-	<script src="/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
+	<script src="jquery-3.4.1.min.js" crossorigin="anonymous"></script>
 	<script src="bootstrap/js/bootstrap.min.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="ResimYukle.css"> 
 	<body>
-	<!-- <div id="header" style="background-color:black">
+	<!-- <div id="header" class="bosluklariKaldir" style="background-color:black">
 		<header>
 			HEADER
 		</header>
@@ -23,9 +23,15 @@
 			</div>
 		</div>
 	</div>
-	<!-- <div id="footer" style="background-color:black">
+	<!-- <div id="footer" class="bosluklariKaldir" style="background-color:black">
 		FOOTER
 	</div> -->
 
 	</body>
+	
+	<script>
+		$('#btnNewGame').click(function () {
+			window.location.href = 'NewGameForm.html';
+		})
+	</script>
 </html>
