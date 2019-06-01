@@ -3,4 +3,5 @@ div.image_KizKulesi{
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size:  contain, cover;
+	margin: 0px;
 }
