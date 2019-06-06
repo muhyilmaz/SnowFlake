@@ -1,8 +1,8 @@
 div.image_KizKulesi{
 	background-image:url(KizKulesi.jpeg);
+	background-repeat: no-repeat;
 	background-position: center;
 	background-size: auto;
-	
 	
 }
 
@@ -16,5 +16,11 @@ div.MenuButonKonum{
   	left: 20px;
   	top: 20px;
 	opacity = 0.4;
+}
+
+button.ButonSekil{
+	background-color: transparent;
+	border-color: transparent; 
+	color:black;
 }
 
