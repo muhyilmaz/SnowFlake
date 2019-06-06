@@ -2,7 +2,8 @@ div.image_KizKulesi{
 	content:url('KizKulesi.jpeg');
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size:  contain, cover;
+	background-size: auto;
+	opacity: 0.3;
 	
 }
 
@@ -10,3 +11,11 @@ div.bosluklariKaldir{
 	margin: 0px;
 	padding: 0px;
 }
+
+div.MenuButonKonum{
+	 position: relative;
+  	left: 20px;
+  	top: 20px;
+	opacity = 0.4;
+}
+
