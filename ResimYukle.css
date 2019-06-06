@@ -1,9 +1,8 @@
 div.image_KizKulesi{
-	content:url('KizKulesi.jpeg');
-	background-repeat: no-repeat;
+	background-image:url(KizKulesi.jpeg);
 	background-position: center;
 	background-size: auto;
-	opacity: 0.3;
+	
 	
 }
 
