@@ -1,0 +1,6 @@
+class Oyun{
+	oyun zorlugu = a;
+	düşman canları = 3000*a;
+	yiyecek tüketimi = 1*a;
+	
+}
