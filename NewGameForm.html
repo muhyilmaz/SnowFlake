@@ -27,6 +27,7 @@
 
 	</body>
 <script>
+	//XML dosya okuma. Hikaye burada okunacak.
 	function XML_Load(){
 		var xmlhttp = new XMLHttpRequest();
 		if(window.XMLHttpRequest){
@@ -35,14 +36,17 @@
 			var httpObj = new ActiveXObject("Microsoft.XMLHTTP");
 		}
 		
-		httpObj.open("GET","story/story.xml",false);
+		httpObj.open("GET","./story/story.xml",true);
 		httpObj.send();
 		
 		var xmlDocument = httpObj.responseXML;
 		
 		var xmlStory = xmlDocument.getElementsByTagName("story");
+		var xmlStory_c0 = xmlStory.childNodes[0];
+		var xmlStory_c0_Prolog = xmlStory_c0.childNodes[0];
+		var prolog_p0 = xmlStory_c0_Prolog.childNodes[0];
 		
-		alert(xmlStory.nodeValue);
+		alert(prolog_p0.getElementsByTagName("picture0").nodeValue);
 	}
 </script>	
 </html>
