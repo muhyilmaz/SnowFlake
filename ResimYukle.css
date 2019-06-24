@@ -13,8 +13,9 @@ div.bosluklariKaldir{
 
 div.MenuButonKonum{
 	 position: relative;
+	 margin-top : 50px;
   	left: 20px;
-  	top: 200px;
+  	top: 20px;
 	opacity = 0.4;
 }
 
