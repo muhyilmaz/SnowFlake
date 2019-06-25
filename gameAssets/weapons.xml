@@ -1,0 +1,41 @@
+<weapons>
+	
+	
+	
+	<primary>
+	</primary>
+	
+	<secondary>
+	</secondary>
+	
+	<melee>
+		
+		<sharp>
+			<yatagan name="Yatağan">
+				<class>
+					Melee
+				</class>
+				
+				<type>
+					Sharp
+				</type>
+				
+				<firetype>
+				
+				</firetype>
+				
+				<damage>
+					60
+				</damage>
+				
+			</yatagan>
+		</sharp>
+		
+		<blunt>
+			<baseball_bat>
+			</baseball_bat>
+		</blunt>
+	
+	</melee>
+	
+</weapons>

@@ -29,6 +29,9 @@ button.ButonSekil{
 	background-color: transparent;
 	border-color: transparent; 
 	color:black;
+	font-size:10vw;
+	width: 78px;
+	display: inline-block;
 }
 
 div.MenuKonum{
